@@ -2,13 +2,15 @@
 .ipynb_checkpoints/
 
 # Large data files
-data/raw/
-data/processed/*.csv
-data/processed/*.parquet
+data/Raw/
+data/Processed/*.csv
+data/Processed/*.parquet
 
 # Trained models
 models/*.pkl
 models/*.joblib
+models/*.h5
+models/*.onnx
 
 # Temporary files
 *.tmp
